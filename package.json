@@ -1,0 +1,25 @@
+{
+  "name": "cafeteria-abc",
+  "version": "1.0.0",
+  "description": "Cafeteria on demand",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-copy": "0.0.2",
+    "gulp-jade": "^1.1.0",
+    "gulp-jade-template-concat": "git+https://git@github.com:dmi3y/gulp-jade-template-concat.git",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-stylus": "^2.0.6",
+    "gulp-uglify": "^1.2.0",
+    "jade": "^1.11.0",
+    "jstransformer-markdown-it": "^0.1.0",
+    "run-sequence": "^1.1.2"
+  }
+}

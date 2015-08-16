@@ -1,0 +1,13 @@
+div.verticalSlider(data-currency=details.currency data-currencysign=details.currencysign)
+	each el, ix in menu
+		div.verticalSliderHeader
+			div #{el.nickname} - #{el.cuisine}
+			span Pickup at floor ##{el.floor}
+		div.verticalSliderContent(class=(ix===0? 'sliderExpanded':''))
+			div.menuList
+				each it in el.food
+					label.block
+						input(type='checkbox' data-name=it.name data-price=it.price)
+						span.menuName= it.name
+						span.menuType= it.type
+						span.menuPrice= details.currencysign + it.price

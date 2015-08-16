@@ -1,0 +1,13 @@
+- var d = new Date()
+
+div 
+	h2 Complete Order
+	img.userPicture(src=picture)
+	div.basketRow
+		span.basketName #{fullName}
+		span.basketTime @#{d.getMonth()}/#{d.getDay()}/#{d.getFullYear()}
+	div.basketRow
+		label
+			span.basketLbl Pickup Time:
+			input(type='time')
+.clr

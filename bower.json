@@ -1,0 +1,10 @@
+{
+  "name": "veronamebel",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "firebase": "~2.2.9",
+    "jade": "~1.11.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,121 @@
+{
+	"pricedetails": {
+		"currency": "usd",
+		"currencysign": "$"
+	},
+	"menu": [
+		{
+			"floor": 1,
+			"cuisine": "indian",
+			"nickname": "tadj mahal",
+			"food": [
+				{
+					"name": "chana masala",
+					"price": 8,
+					"type": "main"
+				},
+				{
+					"name": "samosas",
+					"price": 3,
+					"type": "second"
+				},
+				{
+					"name": "gulab jamun",
+					"price": 2.50,
+					"type": "dessert"
+				},
+				{
+					"name": "chai with almond milk",
+					"price": 2,
+					"type": "beverage"
+				}
+			]
+
+		},
+		{
+			"floor": 2,
+			"cuisine": "italian",
+			"nickname": "pantheon",
+			"food": [
+				{
+					"name": "tomato pasta",
+					"price": 7,
+					"type": "main"
+				},
+				{
+					"name": "fresh salad",
+					"price": 1.50,
+					"type": "second"
+				},
+				{
+					"name": "itallian ice",
+					"price": 4,
+					"type": "dessert"
+				},
+				{
+					"name": "fizzy drinks",
+					"price": 2,
+					"type": "beverage"
+				}
+			]
+
+		},
+		{
+			"floor": 3,
+			"cuisine": "american",
+			"nickname": "brooklyn's bridge",
+			"food": [
+				{
+					"name": "baked potatoes",
+					"price": 7,
+					"type": "main"
+				},
+				{
+					"name": "garden sandwich",
+					"price": 6,
+					"type": "second"
+				},
+				{
+					"name": "apple pie",
+					"price": 4,
+					"type": "dessert"
+				},
+				{
+					"name": "coffee",
+					"price": 1,
+					"type": "beverage"
+				}
+			]
+
+		},
+		{
+			"floor": 4,
+			"cuisine": "mexican",
+			"nickname": "chichen itza",
+			"food": [
+			   	{
+			    	"name": "tofu chilie",
+			    	"price": 7.50,
+			    	"type": "main"
+			    },
+			    {
+			    	"name": "veggie buritto",
+			    	"price": 5,
+			    	"type": "second"
+			    },
+			    {
+			    	"name": "churros",
+			    	"price": 3,
+			    	"type": "dessert"
+			    },
+			    {
+			    	"name": "juises",
+			    	"price": 2.50,
+			    	"type": "beverage"
+			    }
+			]
+
+		}
+
+	]
+}

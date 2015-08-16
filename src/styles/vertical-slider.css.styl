@@ -1,0 +1,32 @@
+.verticalSlider {
+  margin: 0 auto;
+  text-align: center;
+}
+.verticalSliderHeader {
+  color: #fff;
+  font-size: 27px;
+  text-transform: capitalize;
+  padding: 15px 10px;
+  min-height: 35px;
+  cursor: pointer;
+  transparentBg()
+}
+.verticalSliderContent {
+  border-bottom: 2px solid #fff;
+  height: 0;
+  overflow: hidden;
+}
+.verticalSliderContent.sliderExpanded {
+  height: 100%;
+}
+.verticalSliderContent.sliderPhantome {
+  position: absolute;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+}
+.verticalSliderContent>div {
+  padding: 30px 5px;
+  font-size: 12px;
+}
